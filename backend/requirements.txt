@@ -1,0 +1,11 @@
+faiss-cpu==1.8.0.post1
+fastapi==0.111.1
+pydantic
+pydantic-settings
+langchain-community==0.2.7
+langchain-google-genai==1.0.7
+google-generativeai
+python-dotenv==1.0.1
+watchfiles==0.22.0
+websockets==12.0
+tinydb
