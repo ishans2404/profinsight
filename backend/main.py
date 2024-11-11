@@ -28,8 +28,8 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 dbpath = 'database.json'
-if os.path.exists(dbpath):
-    os.remove(dbpath)
+# if os.path.exists(dbpath):
+#     os.remove(dbpath)
 db = TinyDB(dbpath)
 professors_table = db.table("professors")
 with open('reviews.json', 'r') as file:
